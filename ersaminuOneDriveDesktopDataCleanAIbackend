@@ -1,0 +1,37 @@
+[33mcommit de8f45f82e3859f6ba029837c336d0806a70d366[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 978fc98 fcb944b
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Sun Nov 24 22:46:55 2024 +0500
+
+    Merge changes from remote repository
+
+[33mcommit 978fc986c1d5f05b7e2077fbc783d4db88e79ba2[m
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Sun Nov 24 22:25:51 2024 +0500
+
+    Updated backend with deployment configurations
+
+[33mcommit 8b0ec60a571bfc0e80d0b9b73903232190ccabc7[m
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Sun Nov 24 22:07:07 2024 +0500
+
+    Initial commit
+
+[33mcommit fcb944b619e79a9a593dda2aa81ee731770a5073[m
+Merge: 3958641 9c7f0a7
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Sat Nov 23 23:21:31 2024 +0500
+
+    Resolved merge conflicts
+
+[33mcommit 3958641ac155dc5e66e637d89c2986020ca2102b[m
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Sat Nov 23 23:15:03 2024 +0500
+
+    Initial commit with .gitignore
+
+[33mcommit 9c7f0a7b1576d4a88ef57d383c61692a5cb06923[m
+Author: UmmaraAmin-byte <aminummara@gmail.com>
+Date:   Wed Nov 20 21:22:38 2024 +0500
+
+    Create .gitignore

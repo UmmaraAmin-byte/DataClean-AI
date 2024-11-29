@@ -1,0 +1,37 @@
+﻿Module 6: User Authentication Module,,
+Use Case ID,Use Case Name,Functional Requirements
+M6-UC1,Create Account,"FR-6.1.1: Validate User Input, FR-6.1.2: Create User Record, FR-6.1.3: Send Confirmation Email, FR-6.1.4: Handle Duplicate Accounts, FR-6.1.5: Notify User of Success"
+M6-UC2,Login,"FR-6.2.1: Validate Credentials, FR-6.2.2: Track Login Attempts, FR-6.2.3: Lock Account After Failed Attempts, FR-6.2.4: Maintain Session, FR-6.2.5: Notify User of Login Status"
+M6-UC3,Reset Password,"FR-6.3.1: Validate Reset Request, FR-6.3.2: Send Reset Link, FR-6.3.3: Update Password, FR-6.3.4: Notify User of Password Change, FR-6.3.5: Log Reset Events"
+M6-UC4,Email Confirmation,"FR-6.4.1: Send Confirmation Email, FR-6.4.2: Validate Confirmation Link, FR-6.4.3: Activate User Account, FR-6.4.4: Notify User of Activation, FR-6.4.5: Log Confirmation Actions"
+M6-UC5,Account Lock,"FR-6.5.1: Lock Account on Multiple Failed Logins, FR-6.5.2: Notify User of Lock Status, FR-6.5.3: Unlock Account via Support, FR-6.5.4: Log Lock Events, FR-6.5.5: Set Lock Duration"
+M6-UC6,Logout,"FR-6.6.1: End User Session, FR-6.6.2: Clear User Data, FR-6.6.3: Log Logout Time, FR-6.6.4: Notify User of Logout, FR-6.6.5: Redirect to Login Page"
+M6-UC7,Two-Factor Authentication (2FA),"FR-6.7.1: Enable 2FA, FR-6.7.2: Send Verification Code, FR-6.7.3: Validate Verification Code, FR-6.7.4: Log 2FA Events, FR-6.7.5: Notify User of 2FA Status"
+Module 7: User Profile Management Module,,
+M7-UC1,View Profile,"FR-7.1.1: Retrieve User Profile, FR-7.1.2: Display Profile Information, FR-7.1.3: Handle Profile Privacy Settings, FR-7.1.4: Log Profile Views, FR-7.1.5: Ensure Data Integrity"
+M7-UC2,Edit Profile,"FR-7.2.1: Validate Profile Changes, FR-7.2.2: Update User Information, FR-7.2.3: Notify User of Successful Update, FR-7.2.4: Log Changes, FR-7.2.5: Ensure Security of Data"
+M7-UC3,Change Password,"FR-7.3.1: Validate Current Password, FR-7.3.2: Update Password, FR-7.3.3: Notify User of Password Change, FR-7.3.4: Log Password Change Events, FR-7.3.5: Enforce Password Policies"
+M7-UC4,Update Preferences,"FR-7.4.1: Retrieve User Preferences, FR-7.4.2: Update Preferences, FR-7.4.3: Notify User of Update, FR-7.4.4: Log Preference Changes, FR-7.4.5: Ensure Preference Privacy"
+M7-UC5,Delete Account,"FR-7.5.1: Validate Deletion Request, FR-7.5.2: Delete User Record, FR-7.5.3: Notify User of Account Deletion, FR-7.5.4: Log Deletion Events, FR-7.5.5: Ensure Data Removal Compliance"
+M7-UC6,Set Profile Picture,"FR-7.6.1: Upload Profile Picture, FR-7.6.2: Validate Image Format, FR-7.6.3: Store Image Securely, FR-7.6.4: Notify User of Successful Upload, FR-7.6.5: Log Profile Picture Changes"
+Module 8: Data Import Module,,
+M8-UC1,Upload Dataset,"FR-8.1.1: Validate Dataset Format, FR-8.1.2: Upload Data to System, FR-8.1.3: Notify User of Upload Status, FR-8.1.4: Log Upload Events, FR-8.1.5: Handle Duplicate Records"
+M8-UC2,Connect to External Databases,"FR-8.2.1: Validate Connection Parameters, FR-8.2.2: Establish Connection, FR-8.2.3: Retrieve Data, FR-8.2.4: Notify User of Connection Status, FR-8.2.5: Log Connection Events"
+M8-UC3,Track Import Progress,"FR-8.3.1: Monitor Import Status, FR-8.3.2: Notify User of Progress, FR-8.3.3: Log Progress Updates, FR-8.3.4: Provide Estimated Time of Completion, FR-8.3.5: Handle Import Pauses"
+M8-UC4,Handle Import Failures,"FR-8.4.1: Identify Errors, FR-8.4.2: Notify User of Failures, FR-8.4.3: Provide Suggestions for Resolution, FR-8.4.4: Log Import Failures, FR-8.4.5: Retry Failed Imports"
+M8-UC5,View Imported Data,"FR-8.5.1: Retrieve Imported Data, FR-8.5.2: Display Data in User-Friendly Format, FR-8.5.3: Log Data Access, FR-8.5.4: Ensure Data Security, FR-8.5.5: Allow Data Filtering"
+M8-UC6,Schedule Imports,"FR-8.6.1: Set Up Import Schedule, FR-8.6.2: Validate Schedule Settings, FR-8.6.3: Notify User of Scheduled Imports, FR-8.6.4: Log Scheduling Events, FR-8.6.5: Handle Schedule Conflicts"
+Module 9: Data Cleaning and Preprocessing,,
+M9-UC1,Import Data for Cleaning,"FR-9.1.1: Validate Data for Cleaning, FR-9.1.2: Import Data into Cleaning Module, FR-9.1.3: Log Import Events, FR-9.1.4: Notify User of Import Status, FR-9.1.5: Handle Import Errors"
+M9-UC2,Remove Duplicates,"FR-9.2.1: Identify Duplicate Records, FR-9.2.2: Remove Duplicates, FR-9.2.3: Notify User of Removal, FR-9.2.4: Log Removal Events, FR-9.2.5: Provide Summary of Removed Duplicates"
+M9-UC3,Fill Missing Values,"FR-9.3.1: Identify Missing Values, FR-9.3.2: Provide Options for Filling, FR-9.3.3: Fill Missing Values, FR-9.3.4: Notify User of Changes, FR-9.3.5: Log Filling Actions"
+M9-UC4,Normalize Data,"FR-9.4.1: Identify Data to Normalize, FR-9.4.2: Apply Normalization Techniques, FR-9.4.3: Notify User of Normalization, FR-9.4.4: Log Normalization Actions, FR-9.4.5: Validate Normalized Data"
+M9-UC5,Outlier Detection,"FR-9.5.1: Identify Outliers, FR-9.5.2: Notify User of Detected Outliers, FR-9.5.3: Provide Options for Handling Outliers, FR-9.5.4: Log Outlier Detection Events, FR-9.5.5: Summarize Outlier Actions"
+M9-UC6,Track Cleaning Progress,"FR-9.6.1: Monitor Cleaning Status, FR-9.6.2: Notify User of Progress, FR-9.6.3: Log Progress Updates, FR-9.6.4: Provide Estimated Time of Completion, FR-9.6.5: Handle Cleaning Pauses"
+Module 10: Visualization Tools,,
+M10-UC1,Create Charts,"FR-10.1.1: Select Data for Chart, FR-10.1.2: Choose Chart Type, FR-10.1.3: Generate Chart, FR-10.1.4: Log Chart Creation, FR-10.1.5: Notify User of Chart Status"
+M10-UC2,Customize Charts,"FR-10.2.1: Modify Chart Properties, FR-10.2.2: Update Chart in Real-time, FR-10.2.3: Notify User of Changes, FR-10.2.4: Log Customization Events, FR-10.2.5: Handle Invalid Customizations"
+M10-UC3,Export Charts,"FR-10.3.1: Select Export Format, FR-10.3.2: Export Chart, FR-10.3.3: Notify User of Export Status, FR-10.3.4: Log Export Events, FR-10.3.5: Handle Export Errors"
+M10-UC4,Save Chart Templates,"FR-10.4.1: Save Current Chart as Template, FR-10.4.2: Notify User of Save Status, FR-10.4.3: Log Template Save Events, FR-10.4.4: Retrieve Saved Templates, FR-10.4.5: Apply Template to New Data"
+M10-UC5,View Chart Gallery,"FR-10.5.1: Retrieve Available Charts, FR-10.5.2: Display Charts in Gallery View, FR-10.5.3: Notify User of Gallery Updates, FR-10.5.4: Log Gallery Access, FR-10.5.5: Ensure Data Integrity in Gallery"
+M10-UC6,Track Visualization Progress,"FR-10.6.1: Monitor Visualization Creation, FR-10.6.2: Notify User of Progress, FR-10.6.3: Log Progress Updates, FR-10.6.4: Provide Estimated Time of Completion, FR-10.6.5: Handle Creation Pauses"
